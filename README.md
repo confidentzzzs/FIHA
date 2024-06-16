@@ -16,4 +16,11 @@ Later you could test the score with the
 ### Set up the environment:
 
 The environment setup for FIHA QA generated framework relies on py-bottom-up-attention. Please follow the instructions in the environment setup repository to configure your environment in following link https://github.com/airsplay/py-bottom-up-attention.
-After setup, you could run to generated object-attribute in xlsx file. Then could run on .ipynb to generated the QA. 
+After setup, there is two approach to genereate QA
+### QA from images
+1. extract the object and attribute pair through, demo can be find at feature_extraction_from_image.ipynb, then you can get a file end with .xlsx 
+2. using the .xlsx to extract the relations and generated QA by .ipynb 
+### QA from captions
+1. generated the captions from the image
+2. extract the entities and relations from captions
+3. generated QA pairs through template 
