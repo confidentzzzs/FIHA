@@ -8,7 +8,7 @@ FIHA (Fine-grained Hallucinations Evaluations) is a framework designed to evalua
 
 ## Benchmark usage
 
-There are 4 benchmark which can be directly used to test the LVLMS' performance. The demo of running experiment on CHATGPT-4V can be find at run.py and get the output file which includes the response from the CHATGPT-4V. 
+There are 4 benchmark which can be directly used to test the LVLMS' performance. The demo of running experiment on CHATGPT-4V can be find at demo_gpt4v.py and get the output file which includes the response from the CHATGPT-4V. 
 Later you could test the score with the  
 
 ## Generate your own benchmark
@@ -19,8 +19,9 @@ The environment setup for FIHA QA generated framework relies on py-bottom-up-att
 After setup, there is two approach to genereate QA
 ### QA from images
 1. extract the object and attribute pair through, demo can be find at feature_extraction_from_image.ipynb, then you can get a file end with .xlsx 
-2. using the .xlsx to extract the relations and generated QA by .ipynb 
+2. using the .xlsx to extract the relations and generated QA by QA_Generation.ipynb 
 ### QA from captions
 1. generated the captions from the image
 2. extract the entities and relations from captions
-3. generated QA pairs through template 
+3. generated QA pairs through template
+Those three steps are includes in QA_Generation.ipynb 
