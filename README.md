@@ -11,7 +11,7 @@ FIHA (Fine-grained Hallucinations Evaluations) is a framework designed to evalua
 There are 4 benchmark which can be directly used to test the LVLMS' performance. The demo of running experiment on CHATGPT-4V can be find at demo_gpt4v.py and get the output file which includes the response from the CHATGPT-4V. 
 Later you could test the score with the  
 
-## Generate your own benchmark
+## Create your own benchmark
 
 ### Set up the environment:
 
