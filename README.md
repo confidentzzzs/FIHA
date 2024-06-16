@@ -13,7 +13,7 @@ Later you could test the score with the
 
 ## Generate your own benchmark
 
-# Set up the environment:
+### Set up the environment:
 
 The environment setup for FIHA QA generated framework relies on py-bottom-up-attention. Please follow the instructions in the environment setup repository to configure your environment in following link https://github.com/airsplay/py-bottom-up-attention.
 After setup, you could run to generated object-attribute in xlsx file. Then could run on .ipynb to generated the QA. 
